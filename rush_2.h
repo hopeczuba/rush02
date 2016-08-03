@@ -29,5 +29,7 @@ void	ft_putstr(char *str);
 void	ft_putnbr(int nb);
 int		ft_strlen(char *str);
 void	test_rush(int w, int h, char *input);
+int		calculate_width(char *str);
+int		calculate_height(char *str);
 
 #endif
